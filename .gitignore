@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Conda
+.conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files (too large for git)
+data/
+*.tar.gz
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Outputs and logs
+outputs/
+logs/
+*.log
+wandb/
+
+# Model checkpoints
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# CARLA
+*.egg
+
+# Large visualization files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.avi
+
+# But keep small example images if needed
+!outputs/visualizations/.gitkeep
+
