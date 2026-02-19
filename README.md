@@ -1,4 +1,4 @@
-# VLAs for Autonomous Driving (VLAD)
+# VLA for Autonomous Driving (VLAD)
 
 ## Steps to run CARLA==0.9.16
 We run CARLA in server mode. CARLA then connects to your script on port 2000 via the Python API.
