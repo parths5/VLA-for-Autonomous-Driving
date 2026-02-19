@@ -11,3 +11,22 @@ data/
 outputs/
 
 conda/
+
+# Common large files and dirs
+*.tar.gz
+*.zip
+*.mp4
+*.avi
+*.weights
+*.pth
+*.pt
+*.onnx
+.ipynb_checkpoints/
+.vscode/
+.idea/
+wandb/
+core.*
+*.log
+
+# Temp directory for redundant/misplaced files (not pushed)
+_temp_redundant/
